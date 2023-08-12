@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 105%;
+}
+
+body{
+    color: black;
+    background-image: url(https://img.freepik.com/premium-photo/metallic-pen-lay-down-after-customer-satisfaction-survey_50039-2449.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+label,select,textarea{
+    display:block;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+#title{
+    font-family: Fira Code;
+    text-align: center;
+    color: black;
+    font-size: 180%;
+}
+
+#description{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    text-align: center;
+    color: black;
+}
+
+#survey-form{
+    background-color: antiquewhite;
+    border: 2px solid red;
+    border-radius: .5% ;
+    margin: 2vh 20vw;
+}
+
+fieldset{
+    padding: 5vh 5vw;
+    border: unset;
+}
+
+input[type='text'],input[type="email"],input[type="number"]{
+    display: block;
+}
+
+input[type='radio'],input[type="checkbox"]{
+    transform: scale(1.5);
+}
+
+input[id="name"],input[id="email"],input[type="number"],#dropdown,#d1,textarea{
+    width: 40vw;
+    padding: 1vh;
+    border-radius:.25em;
+    border: unset;
+    margin-top: 1.5%;
+    margin-bottom: 1.5em;
+}
+
+#d2,#dropdown2,#text{
+    margin-top: 2em;
+}
+
+#submit{
+    width: 40vw;
+    height: 6vh;
+    background-color: yellow;
+    color: red;
+    border-radius: 2vh;
+}
+/*
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}*/
